@@ -1,0 +1,26 @@
+2019-03-18 07:28:59.041  INFO 2352 --- [main] r.p.library.LibraryApplication           : Starting LibraryApplication on EOSIT-MIHAIF with PID 2352 (C:\Users\mihai.frunzeti\Desktop\Lib\library\target\classes started by mihai.frunzeti in C:\Users\mihai.frunzeti\Desktop\Lib\library)
+2019-03-18 07:28:59.061  INFO 2352 --- [main] r.p.library.LibraryApplication           : No active profile set, falling back to default profiles: default
+2019-03-18 07:29:00.415  INFO 2352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-18 07:29:00.546  INFO 2352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 2 repository interfaces.
+2019-03-18 07:29:01.219  INFO 2352 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45d23961] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 07:29:02.257  INFO 2352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8385 (http)
+2019-03-18 07:29:02.358  INFO 2352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-18 07:29:02.373  INFO 2352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-18 07:29:02.407  INFO 2352 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_162\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\client\eosit\product\12.1.0\client_1\bin;C:\app\eosit\product\12.1.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\mihai.frunzeti\AppData\Local\Microsoft\WindowsApps;C:\Users\mihai.frunzeti\AppData\Local\Programs\Git\cmd;C:\Users\mihai.frunzeti\AppData\Roaming\npm;C:\Users\mihai.frunzeti\AppData\Local\GitHubDesktop\bin;.]
+2019-03-18 07:29:02.980  INFO 2352 --- [main] o.a.c.c.C.[.[localhost].[/api/library]   : Initializing Spring embedded WebApplicationContext
+2019-03-18 07:29:02.980  INFO 2352 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3813 ms
+2019-03-18 07:29:03.482  INFO 2352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-18 07:29:04.467  INFO 2352 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-03-18 07:29:04.498  INFO 2352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-18 07:29:04.638  INFO 2352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-18 07:29:04.906  INFO 2352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-18 07:29:04.906  INFO 2352 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-18 07:29:05.222  INFO 2352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-18 07:29:05.554  INFO 2352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-03-18 07:29:07.410  INFO 2352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-18 07:29:08.474  INFO 2352 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-18 07:29:08.857  WARN 2352 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-18 07:29:09.208  INFO 2352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8385 (http) with context path '/api/library'
+2019-03-18 07:29:09.208  INFO 2352 --- [main] r.p.library.LibraryApplication           : Started LibraryApplication in 11.365 seconds (JVM running for 14.843)
